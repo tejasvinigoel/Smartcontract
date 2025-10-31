@@ -1,5 +1,14 @@
 # Decentralized Crowdfunding Smart Contract
 
+## **Group Members**
+
+| Name               | ID             |
+|-------------------|----------------|
+| Tejasvini Goel    | 2022A7PS1672H  |
+| Simran Sesha Rao  | 2022A7PS0002H  |
+| Simran Singh      | 2022A7PS0003H  |
+| Ruchi Harge       | 2022B4A70942H  |
+
 ## Project Overview
 
 This smart contract implements a decentralized crowdfunding platform for artists to raise funds transparently without intermediary fees. The contract ensures that funds are only released to the artist if the funding goal is met by the deadline. If the goal is not reached, all contributors can claim full refunds of their contributions.
