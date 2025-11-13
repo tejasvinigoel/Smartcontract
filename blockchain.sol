@@ -56,12 +56,6 @@ contract funding {
     funding_goal = _goal; 
     } 
     
-//allow to receive ether
-    receive() external payable 
-    {
-        user_contribute();
-    }
-
     //to contribute by users 
     function user_contribute() public payable check_before_deadline {
         require (msg.value>0 ,"You must send a positive amount of Ether to contribute.");
